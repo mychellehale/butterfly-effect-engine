@@ -8,6 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/mychellehale/butterfly-effect-engine"
 repository = "https://github.com/mychellehale/butterfly-effect-engine"
 keywords = ["neo4j", "langchain", "ai", "supply-chain", "data-engineering"]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
